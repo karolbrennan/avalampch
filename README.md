@@ -2,25 +2,28 @@
 I created this for my own little local development boxes. 
 
 ## What's in the box?
-+ ubuntu/trusty64 - currently version (v20160323.1.0)
-+ Ansible
++ ubuntu/precise64
 + Apache
 + MySQL
 + PHP (allows for the stripping of .php extensions)
+
+### Dependencies
++ [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
++ [Ansible](http://ansible.com)
++ [Vagrant](http://vagrantup.com)
 
 #### Libraries
 The following libraries are included via CDN
 
 + jQuery 2.2.3
 + Foundation JS and CSS 6.2.1
-+ Foundation Dropdown / Dropdown Menu
++ Foundation Dropdown / Dropdown Menu Plugins
 + Foundation Icons 3.0
 + Oswald Google Font
 
 ## Setup
-1. Download the box
-2. Copy into an empty project folder in your sites directory
-3. Edit the following files
+1. Clone or download this repo into an empty project folder in your sites directory
+2. Edit the following files
 
 __ansible/roles/webserver/templates/virtual-hosts.conf.j2__
 
