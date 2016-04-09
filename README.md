@@ -22,7 +22,7 @@ The following libraries are included via CDN
 + Oswald Google Font
 
 ## Setup
-1. Clone or download this repo into an empty project folder in your sites directory
+1. Download the zip of this repo into an empty project folder in your sites directory
 2. Edit the following files
 
 __ansible/roles/webserver/templates/virtual-hosts.conf.j2__
