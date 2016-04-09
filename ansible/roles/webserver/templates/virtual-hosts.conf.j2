@@ -1,0 +1,17 @@
+<VirtualHost *:80>
+  ServerAdmin webmaster@localhost
+  ServerName "test.dev"
+  DocumentRoot {{ document_root }}/public
+
+  <Directory {{ document_root }}/public>
+    SetEnv APPLICATION_ENV {{APPLICATION_ENV}}
+    Options +MultiViews +Indexes
+    Require all granted
+    AllowOverride All
+    DirectoryIndex index.php
+    AddType application/x-httpd-php .php
+  </Directory>
+
+  ErrorLog ${APACHE_LOG_DIR}/error.log
+  CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
