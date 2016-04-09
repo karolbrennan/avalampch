@@ -2,7 +2,7 @@
 I created this for my own little local development boxes. 
 
 ## What's in the box?
-+ ubuntu/precise64
++ ubuntu/trusty64
 + Apache
 + MySQL
 + PHP (allows for the stripping of .php extensions)
