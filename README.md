@@ -5,7 +5,7 @@ I created this for my own little local development boxes.
 + ubuntu/trusty64
 + Apache
 + MySQL
-+ PHP (allows for the stripping of .php extensions)
++ PHP, cURL (allows for the stripping of .php extensions)
 
 ### Dependencies
 + [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
