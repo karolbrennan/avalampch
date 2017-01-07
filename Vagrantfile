@@ -6,7 +6,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     config.vm.provision :ansible do |ansible|
         ansible.playbook = "ansible/playbook.yml"
         ansible.extra_vars = {
-            server_name: "test.dev",
+            server_name: "vagrant.dev",
             APPLICATION_ENV: "development"
         }
     end

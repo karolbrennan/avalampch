@@ -27,7 +27,7 @@ The following libraries are included via CDN
 
 __ansible/roles/webserver/templates/virtual-hosts.conf.j2__
 
-    ServerName "test.dev"
+    ServerName "vagrant.dev"
 
 *Change server name to whatever you want it to be (line 3)*
 
@@ -37,7 +37,7 @@ __Vagrantfile__
 
 *Change ip on line 5 (if desired)*
 
-    server_name: "test.dev",
+    server_name: "vagrant.dev",
 
 *Change server_name on line 9 to match the one in the virtual-hosts file*
 *Note: This box is set up for local development, hence the APPLICATION_ENV = 'development'*
@@ -46,7 +46,7 @@ __/private/etc/hosts (or wherever your hosts file lives)__
 
 *Add an entry for your vagrant box like this*
 
-        192.168.50.111  test.dev
+        192.168.50.111  vagrant.dev
 
 ## Vagrant Up!
 Once you've customized your settings - open terminal, cd into your project directory and type the following:
