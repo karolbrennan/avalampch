@@ -1,5 +1,11 @@
 # Starter Vagrant/Ansible Box
-I created this for my own little local development boxes. 
+I created this for my own local development boxes to make it easier to get up and running with new projects.
+
+## Future Improvements
++ Add the ability to automatically update /etc/hosts file
++ Upgrade the default "theme"
++ Fix issues with the navigation system
++ Include Foundation, MaterializeCSS and Bootstrap via CDN for easy ability to choose any given framework
 
 ## What's in the box?
 + ubuntu/trusty64
