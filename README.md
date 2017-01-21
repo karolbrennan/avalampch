@@ -1,17 +1,21 @@
 # Starter Vagrant/Ansible Box
 I created this for my own local development boxes to make it easier to get up and running with new projects.
 
-## Future Improvements
+## Features
++ url rewrite to strip .php extensions (access page.php at just /page)
++ Prebuilt simple navigation system using the Foundation dropdowns
+
+### Future Improvements
 + Add the ability to automatically update /etc/hosts file
 + Upgrade the default "theme"
-+ Fix issues with the navigation system
++ Fix minor issues with the navigation system
 + Include Foundation, MaterializeCSS and Bootstrap via CDN for easy ability to choose any given framework
 
 ## What's in the box?
 + ubuntu/trusty64
 + Apache
 + MySQL
-+ PHP, cURL (allows for the stripping of .php extensions)
++ PHP, cURL
 
 ### Dependencies
 + [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
@@ -46,6 +50,7 @@ __Vagrantfile__
     server_name: "vagrant.dev",
 
 *Change server_name on line 9 to match the one in the virtual-hosts file*
+
 *Note: This box is set up for local development, hence the APPLICATION_ENV = 'development'*
 
 __/private/etc/hosts (or wherever your hosts file lives)__
