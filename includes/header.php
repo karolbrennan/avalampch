@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/g/foundation@6.2.1(foundation.min.css),foundation-icons@3.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:700">
     <link rel="stylesheet" href="/assets/css/style.css">
+    <meta property="og:image" content="/assets/ogimage.png"/>
 </head>
 
 <header>
