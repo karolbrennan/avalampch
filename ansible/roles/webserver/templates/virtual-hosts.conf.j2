@@ -1,9 +1,9 @@
 <VirtualHost *:80>
   ServerAdmin webmaster@localhost
   ServerName "vagrant.dev"
-  DocumentRoot {{ document_root }}/public
+  DocumentRoot {{ document_root }}/public_html
 
-  <Directory {{ document_root }}/public>
+  <Directory {{ document_root }}/public_html>
     SetEnv APPLICATION_ENV {{APPLICATION_ENV}}
     Options +MultiViews +Indexes
     Require all granted
