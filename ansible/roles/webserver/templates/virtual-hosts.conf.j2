@@ -1,9 +1,9 @@
 <VirtualHost *:80>
   ServerAdmin webmaster@localhost
   ServerName {{APPLICATION_HOSTNAME}}
-  DocumentRoot {{ document_root }}/public_html
+  DocumentRoot {{ document_root }}
 
-  <Directory {{ document_root }}/public_html>
+  <Directory {{ document_root }}>
     SetEnv APPLICATION_ENV {{APPLICATION_ENV}}
     Options +MultiViews +Indexes
     Require all granted

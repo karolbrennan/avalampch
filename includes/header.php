@@ -1,4 +1,7 @@
-<?php $sitetitle = 'Site Title'; ?>
+<?php
+    $sitetitle = 'Vagrant Box';
+    $sitedescription = 'This is development box created using vagrant, ansible and the LAMP stack!';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,5 +29,6 @@
 </head>
 
 <header>
-    <a href="/"><?= $sitetitle; ?></a>
+    <h1><a href="/"><?= $sitetitle; ?></a></h1>
+    <h2><?= $sitedescription; ?></h2>
 </header>

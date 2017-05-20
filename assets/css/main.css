@@ -8,6 +8,17 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Pragati Narrow', sans-serif;
     text-transform: uppercase;
 }
-header, footer, #content {
+header, footer, section {
     padding: 1rem;
+}
+#content, #sidebar {
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+#content {
+    width: 75%;
+}
+#sidebar {
+    width: 25%;
 }

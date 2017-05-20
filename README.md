@@ -1,10 +1,10 @@
 # Starter Vagrant/Ansible Box
-I created this for my own local development boxes to make it easier to get up and running with new projects.
+I created this for quick set up of local development boxes to make it easier to get up and running with new projects.
 
 ## Features
-+ url rewrite to strip .php extensions (access page.php at just /page)
++ url rewrite to strip .php extensions (access page.php at /page)
 + Prebuilt simple navigation system using the Foundation dropdowns
-+ Automatic /etc/hosts updater
++ Automatic /etc/hosts updater, you just set the url and ip address 
 
 ### Future Improvements
 + Upgrade the default "theme"
@@ -26,14 +26,11 @@ I created this for my own local development boxes to make it easier to get up an
 #### Libraries
 The following libraries are included via CDN
 
-+ jQuery 2.2.3
-+ Foundation JS and CSS 6.2.1
-+ Foundation Dropdown / Dropdown Menu Plugins
-+ Foundation Icons 3.0
-+ Oswald Google Font
++ NormalizeCSS
++ Assistant and Pragati Narrow Google Fonts
 
 ## Setup
-1. Download the zip of this repo into an empty project folder in your sites directory
+1. Download the zip of this repo and place it into an empty project folder in your sites directory
 2. If desired, you can customize the IP address, VM name and box URL in the Vagrantfile file. To do so, open __Vagrantfile__ and change the variables at the top to whatever values you want.
 
 *Note: This box is set up for local development, hence the APPLICATION_ENV = 'development'*
@@ -45,8 +42,4 @@ Once you've customized your settings - open terminal, cd into your project direc
 
 It will run through the installation, and at some point you will be asked for your sudo password in order for it to update the hosts file automatically.
 
-Once the box starts up you'll be able to navigate to the server name you chose!
-
-## Misc. Notes
-+ There is a public_html folder which holds anything that can be surfed to, as well as an includes folder that is meant to live outside of the public directory for things we don't want visitors to surf to like the header, footer, and nav files.
-+ The public_html folder should be mapped to your www/public_html folder on your server if you choose to use this box and deploy it to the web.
+Once the box starts up you'll be able to navigate to the server name you chose ([vagrant.dev](http://vagrant.dev) by default). 
