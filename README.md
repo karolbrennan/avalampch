@@ -27,7 +27,7 @@ I created this for quick set up of local development boxes to make it easier to 
 The following libraries are included via CDN
 
 + NormalizeCSS
-+ Assistant and Pragati Narrow Google Fonts
++ Catamaran Google Font
 
 ## Setup
 1. Download the zip of this repo and place it into an empty project folder in your sites directory

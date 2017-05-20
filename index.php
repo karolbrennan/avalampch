@@ -2,12 +2,40 @@
 <section id="content">
 <h3>Welcome to your new Avalampch Dev Box!</h3>
 <p>This box is all ready for you to develop a brand new website!</p>
-<p>Below are some explanations on how this works!</p>
 
-<h4>File Structure</h4>
+<h3>File Structure</h3>
+<strong>Avalampch</strong>
+<ul>
+    <li>ansible (<em>This is where the anisible configuration files live</em>)</li>
+    <li>assets
+        <ul>
+            <li>css
+                <ul>
+                    <li>main.css (<em>this is where you should put your custom css</em>)</li>
+                </ul>
+            </li>
+            <li>images (<em>This is where your images will be located</em>)</li>
+            <li>javascript
+                <ul>
+                    <li>main.js (<em>this is where you should put your custom js</em>)</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>includes
+        <ul>
+            <li>footer.php</li>
+            <li>header.php</li>
+            <li>nav.php</li>
+            <li>sidebar.php</li>
+            <li><em>These files are included using PHP.</em></li>
+        </ul>
+    </li>
+    <li>index.php</li>
+    <li>README.md</li>
+    <li>Vagrantfile</li>
+</ul>
 
-<p>Nulla vitae elit libero, a pharetra augue. Donec sed odio dui. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
-<p>Maecenas sed diam eget risus varius blandit sit amet non magna. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla. Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 </section><section id="sidebar">
     <?php require_once("includes/sidebar.php"); ?>
 </section>

@@ -1,6 +1,6 @@
 <?php
     $sitetitle = 'Avalampch!';
-    $sitedescription = 'This is a development box created using vagrant, ansible, and the LAMP stack with HTML/CSS!';
+    $sitedescription = 'Ansible, Vagrant, And Linux, Apache, MySql, PHP, CSS3, &amp; HTML5!';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -23,12 +23,12 @@
     <meta property="og:image" content="/assets/images/ogimage.png"/>
     <!-- CDN Stylesheets and Fonts -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Assistant|Pragati+Narrow" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:400,600,900" rel="stylesheet">
     <!-- Custom Stylesheet -->
     <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 
 <header>
-    <h1><a href="/"><?= $sitetitle; ?></a></h1>
+    <h1><a href="/"><img src="/assets/images/logo.svg" alt="Avalampch Logo"></a></h1>
     <h2><?= $sitedescription; ?></h2>
 </header>
