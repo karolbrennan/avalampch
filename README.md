@@ -1,4 +1,4 @@
-# Avalampch
+# ![Avalampch Logo](https://raw.githubusercontent.com/karolbrennan/avalampch/master/assets/images/logo_300.png)
 I created this for quick set up of local development boxes to make it easier to get up and running with new projects.
 
 ## Features
