@@ -7,9 +7,8 @@ I created this for quick set up of local development boxes to make it easier to 
 + Automatic /etc/hosts updater, you just set the url and ip address 
 
 ### Future Improvements
-+ Upgrade the default "theme"
-+ Fix minor issues with the navigation system
-+ Include Foundation, MaterializeCSS and Bootstrap via CDN for easy ability to choose any given framework
++ Create a version that includes MaterializeCSS and a default theme
++ Re-write the navigation system
 
 ## What's in the box?
 + ubuntu/trusty64
