@@ -3,7 +3,6 @@ I created this for quick set up of local development boxes to make it easier to 
 
 ## Features
 + url rewrite to strip .php extensions (access page.php at /page)
-+ Prebuilt simple navigation system using the Foundation dropdowns
 + Automatic /etc/hosts updater, you just set the url and ip address 
 
 ### Future Improvements
