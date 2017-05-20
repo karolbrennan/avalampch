@@ -17,7 +17,7 @@
     <meta name="twitter:card" content="summary_large_image" /> <!-- summary | summary_large_image -->
     <meta name="twitter:site" content="@karolbrennan" /><!-- your twitter username -->
     <meta name="twitter:title" content="Avalampch!" />
-    <meta name="twitter:description" content="Basic website built with Vagrant and Ansible with some extras thrown in." />
+    <meta name="twitter:description" content="Basic dev server built with Vagrant and Ansible with some extras thrown in." />
     <meta name="twitter:image" content="<?=$siteurl?>assets/images/ogimage.png" />
     <meta name="twitter:image:alt" content="Avalampch! Dev Box" />
     <!-- Facebook and others -->
