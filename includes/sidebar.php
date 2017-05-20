@@ -11,6 +11,7 @@
 </ul>
 
 <h3>Other Resources</h3>
+<ul>
     <li><a href="https://fonts.google.com">Google Fonts</a></li>
     <li><a href="https://necolas.github.io/normalize.css/">Normalize CSS</a></li>
 </ul>
