@@ -1,4 +1,4 @@
-# AVALAMPCH
+# Avalampch
 I created this for quick set up of local development boxes to make it easier to get up and running with new projects.
 
 ## Features
