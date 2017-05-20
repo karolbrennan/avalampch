@@ -1,6 +1,6 @@
 VAGRANT_IP = "192.168.50.100"
-VAGRANT_HOSTNAME = "vagrant.dev"
-VAGRANT_BOXNAME = "vagrant dev"
+VAGRANT_HOSTNAME = "avalampch.dev"
+VAGRANT_BOXNAME = "avalampch"
 
 Vagrant.configure('2') do |config|
     config.vm.box = "ubuntu/trusty64"

@@ -1,6 +1,6 @@
 <?php
-    $sitetitle = 'Vagrant Box';
-    $sitedescription = 'This is development box created using vagrant, ansible and the LAMP stack!';
+    $sitetitle = 'Avalampch!';
+    $sitedescription = 'This is a development box created using vagrant, ansible, and the LAMP stack with HTML/CSS!';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -14,11 +14,11 @@
     <meta name="keywords" content="Vagrant, Ansible, Web Development, PHP, HTML5, CSS3">
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" /> <!-- summary | summary_large_image -->
-    <meta name="twitter:site" content="@codemasterkarol" /><!-- your twitter username -->
-    <meta name="twitter:title" content="Vagrant Basic Dev Site" />
+    <meta name="twitter:site" content="@karolbrennan" /><!-- your twitter username -->
+    <meta name="twitter:title" content="Avalampch!" />
     <meta name="twitter:description" content="Basic website built with Vagrant and Ansible with some extras thrown in." />
     <meta name="twitter:image" content="/assets/images/ogimage.png" />
-    <meta name="twitter:image:alt" content="Vagrant Dev Box" />
+    <meta name="twitter:image:alt" content="Avalampch! Dev Box" />
     <!-- Facebook and others -->
     <meta property="og:image" content="/assets/images/ogimage.png"/>
     <!-- CDN Stylesheets and Fonts -->
