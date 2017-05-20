@@ -1,6 +1,7 @@
 <?php
     $sitetitle = 'Avalampch!';
     $sitedescription = 'Ansible, Vagrant, And Linux, Apache, MySql, PHP, CSS3, &amp; HTML5!';
+    $siteurl = (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -17,18 +18,18 @@
     <meta name="twitter:site" content="@karolbrennan" /><!-- your twitter username -->
     <meta name="twitter:title" content="Avalampch!" />
     <meta name="twitter:description" content="Basic website built with Vagrant and Ansible with some extras thrown in." />
-    <meta name="twitter:image" content="assets/images/ogimage.png" />
+    <meta name="twitter:image" content="<?=$siteurl?>assets/images/ogimage.png" />
     <meta name="twitter:image:alt" content="Avalampch! Dev Box" />
     <!-- Facebook and others -->
-    <meta property="og:image" content="assets/images/ogimage.png"/>
+    <meta property="og:image" content="<?=$siteurl?>assets/images/ogimage.png"/>
     <!-- CDN Stylesheets and Fonts -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Catamaran:400,600,900" rel="stylesheet">
     <!-- Custom Stylesheet -->
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="<?=$siteurl?>assets/css/main.css">
 </head>
 
 <header>
-    <h1><a href="/"><img src="assets/images/logo.svg" alt="Avalampch Logo"></a></h1>
+    <h1><a href="<?=$siteurl?>"><img src="<?=$siteurl?>assets/images/logo.svg" alt="Avalampch Logo"></a></h1>
     <h2><?= $sitedescription; ?></h2>
 </header>
