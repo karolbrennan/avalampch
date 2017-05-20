@@ -1,0 +1,13 @@
+html, body {
+    font-size: 22px;
+    color: #333;
+    font-family: 'Assistant', sans-serif;
+    line-height: 1.5;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Pragati Narrow', sans-serif;
+    text-transform: uppercase;
+}
+header, footer, #content {
+    padding: 1rem;
+}

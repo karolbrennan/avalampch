@@ -34,18 +34,7 @@ The following libraries are included via CDN
 
 ## Setup
 1. Download the zip of this repo into an empty project folder in your sites directory
-2. Edit the following file
-
-__Vagrantfile__
-
-    config.vm.network "private_network", ip: "192.168.50.100"
-
-*Change ip on line 5 (if desired)*
-
-    server_name: "vagrant.dev",
-    APPLICATION_HOSTNAME: "vagrant.dev"
-
-*Change server_name / APPLICATION_HOSTNAME on lines 6 and 13 to what url you want to develop on*
+2. If desired, you can customize the IP address, VM name and box URL in the Vagrantfile file. To do so, open __Vagrantfile__ and change the variables at the top to whatever values you want.
 
 *Note: This box is set up for local development, hence the APPLICATION_ENV = 'development'*
 
