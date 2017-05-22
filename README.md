@@ -8,6 +8,7 @@ I created this for quick set up of local development boxes to make it easier to 
 ### Future Improvements
 + Create a version that includes MaterializeCSS and a default theme
 + Re-write the navigation system
++ Auto select an IP address that is not in use
 
 ## What's in the box?
 + ubuntu/trusty64
