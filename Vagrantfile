@@ -7,6 +7,7 @@ Vagrant.configure('2') do |config|
     config.vm.network :private_network, ip: VAGRANT_IP
     config.vm.hostname = VAGRANT_HOSTNAME
     config.hostsupdater.remove_on_suspend = false
+    config.ssh.replace_insecure_key = false
     config.vm.synced_folder ".", "/vagrant", owner: "www-data", group: "www-data", mount_options: ["dmode=775,fmode=775"]
     config.vm.provision :ansible do |ansible|
         ansible.playbook = "ansible/playbook.yml"
