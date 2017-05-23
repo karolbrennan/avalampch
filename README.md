@@ -20,7 +20,9 @@ I created this for quick set up of local development boxes to make it easier to 
 + [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 + [Ansible](http://ansible.com)
 + [Vagrant](http://vagrantup.com)
-+  You may be asked to install hostsupdater - you can do this with the following command:  `vagrant plugin install vagrant-hostsupdater`
++  You may be asked to install hostsupdater - you can do this with the following command:  
+    
+    `vagrant plugin install vagrant-hostsupdater`
 
 #### Libraries
 The following libraries are included via CDN
