@@ -29,16 +29,24 @@ The following libraries are included via CDN
 + Catamaran Google Font
 
 ## Setup
-1. Download the zip of this repo and place it into an empty project folder in your sites directory
-2. If desired, you can customize the IP address, VM name and box URL in the Vagrantfile file. To do so, open __Vagrantfile__ and change the variables at the top to whatever values you want.
+1. Clone the repo into the directory you want to have the project in 
+   
+   `$ git clone http://github.com/karolbrennan/avalampch project-directory`
+2. Navigate to your project directory 
+
+    `$ cd project-directory`
+3. Open the Vagrantfile in your editor (if using nano:)
+    
+    `$ sudo nano Vagrantfile`
+4. Edit the top 3 lines for your personal settings (*optional*)
+    
+    `VAGRANT_IP = "192.168.50.100"` - the ip you want to use
+    
+    `VAGRANT_HOSTNAME = "avalampch.dev"` - the url where you want to access your site
+    
+    `VAGRANT_BOXNAME = "avalampch"` - the name of the virtual machine
+    
+5. Save your changes (`ctrl + x`) and exit the editor
+6. `$ vagrant up` - this will take you through the rest of the set up. At one point you will be asked for your password to update the hosts file. Once it finishes you're ready to surf to your new site! ([vagrant.dev](http://vagrant.dev)by default).
 
 *Note: This box is set up for local development, hence the APPLICATION_ENV = 'development'*
-
-## Vagrant Up!
-Once you've customized your settings - open terminal, cd into your project directory and type the following:
-
-    $ vagrant up
-
-It will run through the installation, and at some point you will be asked for your sudo password in order for it to update the hosts file automatically.
-
-Once the box starts up you'll be able to navigate to the server name you chose ([vagrant.dev](http://vagrant.dev) by default). 
