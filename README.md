@@ -47,6 +47,6 @@ The following libraries are included via CDN
     `VAGRANT_BOXNAME = "avalampch"` - the name of the virtual machine
     
 5. Save your changes (`ctrl + x`) and exit the editor
-6. `$ vagrant up` - this will take you through the rest of the set up. At one point you will be asked for your password to update the hosts file. Once it finishes you're ready to surf to your new site! ([vagrant.dev](http://vagrant.dev) by default).
+6. `$ vagrant up` - this will take you through the rest of the set up. At one point you will be asked for your password to update the hosts file. Once it finishes you're ready to surf to your new site! ([avalampch.dev](http://avalampch.dev) by default).
 
 *Note: This box is set up for local development, hence the APPLICATION_ENV = 'development'*
